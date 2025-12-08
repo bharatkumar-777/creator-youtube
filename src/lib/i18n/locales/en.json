@@ -7,6 +7,7 @@
     "signup": "Sign-up"
   },
   "dropzone": {
+    "then":"then",
     "maxSize": "Max Size 200 mb (free) | we don't save your videos or audio",
     "selectTool": "SELECT TOOL BELOW",
     "dragDrop": "THEN DRAG & DROP OR BROWSE FILES",

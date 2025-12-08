@@ -7,6 +7,7 @@
     "signup": "Registrarse"
   },
   "dropzone": {
+    "then":"luego",
     "maxSize": "Tamaño máximo 200 mb (gratis) | no guardamos tus videos o audio",
     "selectTool": "SELECCIONA HERRAMIENTA ABAJO",
     "dragDrop": "LUEGO ARRASTRA Y SUELTA O EXPLORA ARCHIVOS",

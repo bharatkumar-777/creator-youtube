@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter,Roboto } from "next/font/google";
 import "./globals.css";
 import { LanguageProvider } from "@/context/LanguageContext";
 
@@ -8,6 +8,12 @@ const inter = Inter({
   variable: "--font-inter",
   display: "swap",
 });
+const roboto = Roboto({
+  subsets: ["latin"],
+  variable: "--font-roboto",
+  display: "swap",
+});
+
 
 export const metadata: Metadata = {
   title: "YouCreator - Video, Audio & File Converter",
@@ -16,12 +22,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: Readonly<{ 
   children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} font-sans antialiased`}>
+      <body className={`${roboto.variable} ${inter.variable}  antialiased`}>
         <LanguageProvider>
           {children}
         </LanguageProvider>

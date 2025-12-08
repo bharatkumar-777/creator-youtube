@@ -12,7 +12,7 @@ export default function ShellLayout({
 }) {
   return (
     <DropzoneProvider>
-      <div className="page-frame">
+      <div className="page-frame m-8! p-8! border-3 rounded-4xl border-black">
         <ShellHeader />
         <main className="centered-container">
           <DropzoneCard />

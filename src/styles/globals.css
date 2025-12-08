@@ -1,3 +1,4 @@
 /* Additional global styles can be added here */
 /* The main globals.css is in src/app/globals.css */
 
+@import "tailwindcss";
