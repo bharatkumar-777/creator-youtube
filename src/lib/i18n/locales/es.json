@@ -1,0 +1,27 @@
+{
+  "header": {
+    "pricing": "Precios",
+    "about": "Sobre Mí",
+    "help": "Ayuda",
+    "login": "Iniciar Sesión",
+    "signup": "Registrarse"
+  },
+  "dropzone": {
+    "maxSize": "Tamaño máximo 200 mb (gratis) | no guardamos tus videos o audio",
+    "selectTool": "SELECCIONA HERRAMIENTA ABAJO",
+    "dragDrop": "LUEGO ARRASTRA Y SUELTA O EXPLORA ARCHIVOS",
+    "dragDropHighlight": "ARRASTRA Y SUELTA",
+    "browseFiles": "EXPLORA ARCHIVOS",
+    "supports": "Soporta MP4, MOV, MP3, WAV, SRT, TXT, JPG Etc."
+  },
+  "tools": {
+    "videoConverter": "Convertidor de Video",
+    "audioConverter": "Convertidor de Audio",
+    "subtitles": "Generador de Subtítulos",
+    "fileConverter": "Convertidor de Archivos"
+  },
+  "footer": {
+    "copyright": "© 2025 YouCreator | Términos y Política de Privacidad"
+  }
+}
+

@@ -1,0 +1,27 @@
+{
+  "header": {
+    "pricing": "Pricing",
+    "about": "AboutMe",
+    "help": "Help",
+    "login": "Login",
+    "signup": "Sign-up"
+  },
+  "dropzone": {
+    "maxSize": "Max Size 200 mb (free) | we don't save your videos or audio",
+    "selectTool": "SELECT TOOL BELOW",
+    "dragDrop": "THEN DRAG & DROP OR BROWSE FILES",
+    "dragDropHighlight": "DRAG & DROP",
+    "browseFiles": "BROWSE FILES",
+    "supports": "Supports MP4, MOV, MP3, WAV, SRT, TXT, JPG Etc."
+  },
+  "tools": {
+    "videoConverter": "Video Converter",
+    "audioConverter": "Audio Converter",
+    "subtitles": "Subtitles Gen.",
+    "fileConverter": "File Converter"
+  },
+  "footer": {
+    "copyright": "© 2025 YouCreator | Terms & Privacy Policy"
+  }
+}
+
