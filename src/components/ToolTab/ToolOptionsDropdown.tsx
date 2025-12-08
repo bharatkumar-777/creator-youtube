@@ -46,15 +46,15 @@ export default function ToolOptionsDropdown({
                   whileTap={{ scale: 0.98 }}
                   className="w-full text-left p-3 rounded-lg font-medium transition-all"
                   style={{
-                    backgroundColor: 'rgba(255, 255, 255, 0.5)',
+                    backgroundColor: `${color}20`,
                     border: `1px solid ${color}40`,
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.backgroundColor = `${color}20`;
+                    e.currentTarget.style.backgroundColor = `${color}40`;
                   }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.5)';
-                  }}
+                  // onMouseLeave={(e) => {
+                  //   e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.5)';
+                  // }}
                 >
                   {option}
                 </motion.button>

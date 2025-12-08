@@ -28,7 +28,7 @@ export default function ToolTabButton({
         isActive ? 'shadow-lg' : 'hover:shadow-md'
       }`}
       style={{
-        backgroundColor: isActive ? 'transparent' : color,
+        backgroundColor: isActive ? `${color}80` : color,
         color: 'black',
         border: `2px solid ${isActive ? color : 'black'}`,
       }}

@@ -33,7 +33,7 @@ export default function ToolTabExpanded({
             className="rounded-2xl p-6 min-h-[200px]"
             style={{
               border: `2px solid ${color}`,
-              backgroundColor: `${color}10`,
+              // backgroundColor: `${color}20`,
             }}
             initial={{ scale: 0.95, y: -10 }}
             animate={{ scale: 1, y: 0 }}

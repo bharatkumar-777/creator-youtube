@@ -32,7 +32,7 @@ html,
 body {
   height: 100vh;
   overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
 }
 
 body {
