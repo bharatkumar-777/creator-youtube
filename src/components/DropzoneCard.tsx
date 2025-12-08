@@ -74,11 +74,11 @@ export default function DropzoneCard() {
             <div className="absolute -bottom-2 -left-4 w-20 h-20 rounded-full bg-[#25D366] "></div>
           </div>
 
-          <div className="space-y-2 !mb-6 !mt-8 !font-sans">
+          <div className="space-y-2 !mb-6 !mt-8 !font-inter">
             <p className="text-xl font-black text-gray-900">
               {t.dropzone.selectTool}
             </p>
-            <p className="text-xl font-bold !font-sans">
+            <p className="text-xl font-bold !font-inter">
               <span className="font-bold uppercase">
                 {" " + t.dropzone.then + " "}
               </span>
