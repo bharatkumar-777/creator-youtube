@@ -21,7 +21,7 @@ export default function ShellHeader() {
         <span className="text-2xl font-bold text-gray-900">YouCreator</span>
       </Link>
       <nav className="flex items-center gap-6">
-        <div className='bg-light-white flex items-center !gap-[18px] rounded-lg !p-4 !py-2'>
+        <div className='bg-light-white flex items-center !gap-[18px] rounded-2xl !p-4 !py-3'>
         <Link
           href="#pricing"
           className="text-[#FC0A32] font-medium hover:underline"
@@ -37,17 +37,18 @@ export default function ShellHeader() {
        
         </div>
        
-        <LanguageSwitcher />
-        <div className='bg-light-white flex items-center !gap-4 rounded-lg !p-4 !py-2'>
+       
+        <div className='bg-light-white flex items-center !gap-4 rounded-2xl !px-4 !py-1'>
         <Link href="#login" className="text-gray-900 font-medium hover:underline">
           {t.header.login}
         </Link>
         <Link
           href="#signup"
-          className="!px-4 py-2 bg-[#FC0A32]  text-white rounded-lg font-medium hover:bg-[#EE5454] transition-colors"
+          className="!px-6 !py-2 bg-[#FC0A32] border-1 border-black text-white rounded-2xl font-medium hover:bg-[#EE5454] transition-colors"
         >
           {t.header.signup}
         </Link>
+        <LanguageSwitcher />
         </div>
        
       </nav>
