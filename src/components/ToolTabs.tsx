@@ -4,37 +4,7 @@ import { useState } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
 import ToolTabItem from './ToolTab/ToolTabItem';
 import ToolTabExpanded from './ToolTab/ToolTabExpanded';
-
-const tabs = [
-  {
-    nameKey: 'videoConverter',
-    href: '/video-converter',
-    color: '#8B9FFF',
-    icon: '/assets/film.svg',
-    options: ['Convert Format', 'Compress Video', 'Trim Video'],
-  },
-  {
-    nameKey: 'audioConverter',
-    href: '/audio-converter',
-    color: '#FFC510',
-    icon: '/assets/headphone.svg',
-    options: ['Convert Format', 'Extract Audio', 'Merge Audio'],
-  },
-  {
-    nameKey: 'subtitles',
-    href: '/subtitles',
-    color: '#EE5454',
-    icon: '/assets/subs.svg',
-    options: ['Generate Subtitles', 'Edit Subtitles', 'Translate'],
-  },
-  {
-    nameKey: 'fileConverter',
-    href: '/file-converter',
-    color: '#25D366',
-    icon: '/assets/file.svg',
-    options: ['Convert Document', 'Compress File', 'Merge Files'],
-  },
-];
+import { tabs } from '@/lib/tabsConfig';
 
 export default function ToolTabs() {
   const pathname = usePathname();
