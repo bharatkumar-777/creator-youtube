@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useState, ReactNode } from 'react';
 
-type Tool = 'video-converter' | 'audio-converter' | 'subtitles' | 'file-converter';
+type Tool = 'video' | 'audio' | 'subtitles' | 'file';
 type SubTool = 'trim' | 'compress' | 'convert' | null;
 
 interface ToolContextType {

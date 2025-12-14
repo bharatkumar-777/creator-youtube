@@ -12,11 +12,11 @@ export default function ToolTabs() {
   const [expandedTab, setExpandedTab] = useState<string | null>(null);
 
   const handleTabClick = (href: string) => {
+    // Just expand/collapse the dropdown, don't navigate
     if (expandedTab === href) {
       setExpandedTab(null);
     } else {
       setExpandedTab(href);
-      router.push(href);
     }
   };
 
@@ -50,6 +50,7 @@ export default function ToolTabs() {
           isExpanded={true}
           color={activeTab.color}
           options={activeTab.options}
+          tabConfig={activeTab}
         />
       )}
     </div>

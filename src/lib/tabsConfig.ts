@@ -30,7 +30,7 @@ export interface TabConfig {
 export const tabs: TabConfig[] = [
   {
     nameKey: 'videoConverter',
-    href: '/video-converter',
+    href: '/video',
     color: '#8B9FFF',
     icon: '/assets/film.svg',
     options: [
@@ -41,7 +41,7 @@ export const tabs: TabConfig[] = [
   },
   {
     nameKey: 'audioConverter',
-    href: '/audio-converter',
+    href: '/audio',
     color: '#FFC510',
     icon: '/assets/headphone.svg',
     options: [
@@ -63,7 +63,7 @@ export const tabs: TabConfig[] = [
   },
   {
     nameKey: 'fileConverter',
-    href: '/file-converter',
+    href: '/file',
     color: '#25D366',
     icon: '/assets/file.svg',
     options: [

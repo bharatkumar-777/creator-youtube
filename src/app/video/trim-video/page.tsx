@@ -4,10 +4,9 @@ import { tabs } from '@/lib/tabsConfig';
 import ToolPageLayout from '@/components/ToolPageLayout';
 import ToolContentLayout from '@/components/ToolContentLayout';
 import VideoPreview from '@/components/Video/VideoPreview';
-import CompactDropzoneCard from '@/components/CompactDropzoneCard';
 
 export default function VideoTrimPage() {
-  const tabConfig = tabs.find((tab) => tab.href === '/video-converter');
+  const tabConfig = tabs.find((tab) => tab.href === '/video');
   const currentOption = 'Trim Video';
 
   if (!tabConfig) return null;
@@ -24,10 +23,7 @@ export default function VideoTrimPage() {
         ]}
       >
         <div className="space-y-4">
-          <h2 className="text-2xl font-bold mb-4">Trim Video</h2>
-          <div className="max-w-2xl">
-            <CompactDropzoneCard />
-          </div>
+          <h2 className="text-2xl font-bold !mb-4">Trim Video</h2>
         </div>
       </ToolContentLayout>
     </ToolPageLayout>

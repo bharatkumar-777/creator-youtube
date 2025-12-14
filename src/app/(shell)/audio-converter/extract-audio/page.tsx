@@ -6,9 +6,9 @@ import ToolContentLayout from '@/components/ToolContentLayout';
 import VideoPreview from '@/components/Video/VideoPreview';
 import CompactDropzoneCard from '@/components/CompactDropzoneCard';
 
-export default function VideoTrimPage() {
-  const tabConfig = tabs.find((tab) => tab.href === '/video-converter');
-  const currentOption = 'Trim Video';
+export default function ExtractAudioPage() {
+  const tabConfig = tabs.find((tab) => tab.href === '/audio-converter');
+  const currentOption = 'Extract Audio';
 
   if (!tabConfig) return null;
 
@@ -19,12 +19,12 @@ export default function VideoTrimPage() {
         previewComponent={<VideoPreview />}
         quickInfo={[
           { label: 'Expected Size', value: '50%' },
-          { label: 'Duration', value: 'Custom' },
-          { label: 'Format', value: 'MP4' },
+          { label: 'Format', value: 'MP3' },
+          { label: 'Bitrate', value: '128kbps' },
         ]}
       >
         <div className="space-y-4">
-          <h2 className="text-2xl font-bold mb-4">Trim Video</h2>
+          <h2 className="text-2xl font-bold mb-4">Extract Audio</h2>
           <div className="max-w-2xl">
             <CompactDropzoneCard />
           </div>

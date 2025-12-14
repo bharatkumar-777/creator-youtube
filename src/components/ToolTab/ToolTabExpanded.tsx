@@ -1,13 +1,14 @@
 'use client';
 
 import ToolOptionsDropdown from './ToolOptionsDropdown';
-import { TabOption } from '@/lib/tabsConfig';
+import { TabOption, TabConfig } from '@/lib/tabsConfig';
 
 interface ToolTabExpandedProps {
   isExpanded: boolean;
   color: string;
   children?: React.ReactNode;
   options?: TabOption[];
+  tabConfig?: TabConfig;
 }
 
 export default function ToolTabExpanded({
@@ -15,6 +16,7 @@ export default function ToolTabExpanded({
   color,
   children,
   options,
+  tabConfig,
 }: ToolTabExpandedProps) {
   if (!isExpanded) return null;
 
@@ -32,6 +34,7 @@ export default function ToolTabExpanded({
               isOpen={true}
               color={color}
               options={options}
+              tabConfig={tabConfig}
             />
           </div>
         )}
